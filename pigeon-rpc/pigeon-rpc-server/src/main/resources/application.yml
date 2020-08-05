@@ -1,0 +1,12 @@
+
+server:
+  port: 9999
+tcp:
+  port: 9090
+
+
+spring:
+  application:
+    name: rpc-server
+  profiles:
+    active: dev
